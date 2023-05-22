@@ -1,0 +1,43 @@
+[14-Mar-2023 15:58:54 UTC] Uncaught exception: 'Exception' with message: 'No route matched.'
+Stack trace: #0 C:\laragon\www\SignUp-MVC\public\index.php(36): Core\Router->dispatch('favicon.ico')
+#1 {main}
+Throw in 'C:\laragon\www\SignUp-MVC\Core\Router.php' on line 92
+[14-Mar-2023 15:59:25 UTC] Uncaught exception: 'Exception' with message: 'Method destroryAction not found in controllerApp\Controllers\Login'
+Stack trace: #0 C:\laragon\www\SignUp-MVC\Core\Router.php(81): Core\Controller->__call('destrory', Array)
+#1 C:\laragon\www\SignUp-MVC\public\index.php(36): Core\Router->dispatch('login/destrory')
+#2 {main}
+Throw in 'C:\laragon\www\SignUp-MVC\Core\Controller.php' on line 31
+[14-Mar-2023 15:59:33 UTC] Uncaught exception: 'Exception' with message: 'Method destroyAction not found in controllerApp\Controllers\Login'
+Stack trace: #0 C:\laragon\www\SignUp-MVC\Core\Router.php(81): Core\Controller->__call('destroy', Array)
+#1 C:\laragon\www\SignUp-MVC\public\index.php(36): Core\Router->dispatch('login/destroy')
+#2 {main}
+Throw in 'C:\laragon\www\SignUp-MVC\Core\Controller.php' on line 31
+[14-Mar-2023 16:03:31 UTC] Uncaught exception: 'Exception' with message: 'Method destroryAction not found in controllerApp\Controllers\Login'
+Stack trace: #0 C:\laragon\www\SignUp-MVC\Core\Router.php(81): Core\Controller->__call('destrory', Array)
+#1 C:\laragon\www\SignUp-MVC\public\index.php(36): Core\Router->dispatch('login/destrory')
+#2 {main}
+Throw in 'C:\laragon\www\SignUp-MVC\Core\Controller.php' on line 31
+[14-Mar-2023 16:03:55 UTC] Uncaught exception: 'Exception' with message: 'Method destroyAction not found in controllerApp\Controllers\Login'
+Stack trace: #0 C:\laragon\www\SignUp-MVC\Core\Router.php(81): Core\Controller->__call('destroy', Array)
+#1 C:\laragon\www\SignUp-MVC\public\index.php(36): Core\Router->dispatch('login/destroy')
+#2 {main}
+Throw in 'C:\laragon\www\SignUp-MVC\Core\Controller.php' on line 31
+[14-Mar-2023 16:12:47 UTC] Uncaught exception: 'Exception' with message: 'No route matched.'
+Stack trace: #0 C:\laragon\www\SignUp-MVC\public\index.php(37): Core\Router->dispatch('favicon.ico')
+#1 {main}
+Throw in 'C:\laragon\www\SignUp-MVC\Core\Router.php' on line 92
+[14-Mar-2023 16:12:52 UTC] Uncaught exception: 'Exception' with message: 'Method destroyAction not found in controllerApp\Controllers\Login'
+Stack trace: #0 C:\laragon\www\SignUp-MVC\Core\Router.php(81): Core\Controller->__call('destroy', Array)
+#1 C:\laragon\www\SignUp-MVC\public\index.php(37): Core\Router->dispatch('logout')
+#2 {main}
+Throw in 'C:\laragon\www\SignUp-MVC\Core\Controller.php' on line 31
+[14-Mar-2023 16:15:35 UTC] Uncaught exception: 'Exception' with message: 'Method destroyAction not found in controllerApp\Controllers\Login'
+Stack trace: #0 C:\laragon\www\SignUp-MVC\Core\Router.php(81): Core\Controller->__call('destroy', Array)
+#1 C:\laragon\www\SignUp-MVC\public\index.php(37): Core\Router->dispatch('logout')
+#2 {main}
+Throw in 'C:\laragon\www\SignUp-MVC\Core\Controller.php' on line 31
+[14-Mar-2023 16:17:17 UTC] Uncaught exception: 'Exception' with message: 'Method destroyAction not found in controllerApp\Controllers\Login'
+Stack trace: #0 C:\laragon\www\SignUp-MVC\Core\Router.php(81): Core\Controller->__call('destroy', Array)
+#1 C:\laragon\www\SignUp-MVC\public\index.php(37): Core\Router->dispatch('logout')
+#2 {main}
+Throw in 'C:\laragon\www\SignUp-MVC\Core\Controller.php' on line 31

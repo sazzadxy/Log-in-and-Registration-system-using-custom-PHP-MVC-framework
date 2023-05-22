@@ -1,0 +1,20 @@
+[17-Mar-2023 05:37:14 UTC] Uncaught exception: 'Exception' with message: 'No route matched.'
+Stack trace: #0 C:\laragon\www\SignUp-MVC\public\index.php(38): Core\Router->dispatch('favicon.ico')
+#1 {main}
+Throw in 'C:\laragon\www\SignUp-MVC\Core\Router.php' on line 92
+[17-Mar-2023 05:50:21 UTC] Uncaught exception: 'Twig\Error\SyntaxError' with message: 'Unexpected "}".'
+Stack trace: #0 C:\laragon\www\SignUp-MVC\vendor\twig\twig\src\Lexer.php(279): Twig\Lexer->lexExpression()
+#1 C:\laragon\www\SignUp-MVC\vendor\twig\twig\src\Lexer.php(180): Twig\Lexer->lexBlock()
+#2 C:\laragon\www\SignUp-MVC\vendor\twig\twig\src\Environment.php(472): Twig\Lexer->tokenize(Object(Twig\Source))
+#3 C:\laragon\www\SignUp-MVC\vendor\twig\twig\src\Environment.php(519): Twig\Environment->tokenize(Object(Twig\Source))
+#4 C:\laragon\www\SignUp-MVC\vendor\twig\twig\src\Environment.php(351): Twig\Environment->compileSource(Object(Twig\Source))
+#5 C:\laragon\www\SignUp-MVC\vendor\twig\twig\src\Environment.php(312): Twig\Environment->loadTemplate('__TwigTemplate_...', 'Items/index.htm...')
+#6 C:\laragon\www\SignUp-MVC\vendor\twig\twig\src\Environment.php(280): Twig\Environment->load('Items/index.htm...')
+#7 C:\laragon\www\SignUp-MVC\Core\View.php(41): Twig\Environment->render('Items/index.htm...', Array)
+#8 C:\laragon\www\SignUp-MVC\App\Controllers\Items.php(11): Core\View::renderTemplate('Items/index.htm...')
+#9 [internal function]: App\Controllers\Items->indexAction()
+#10 C:\laragon\www\SignUp-MVC\Core\Controller.php(27): call_user_func_array(Array, Array)
+#11 C:\laragon\www\SignUp-MVC\Core\Router.php(81): Core\Controller->__call('index', Array)
+#12 C:\laragon\www\SignUp-MVC\public\index.php(38): Core\Router->dispatch('items/index')
+#13 {main}
+Throw in 'C:\laragon\www\SignUp-MVC\App\Views\Items\index.html' on line 3

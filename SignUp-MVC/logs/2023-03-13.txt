@@ -1,0 +1,19 @@
+[13-Mar-2023 05:46:27 UTC] Uncaught exception: 'Exception' with message: 'No route matched.'
+Stack trace: #0 C:\laragon\www\SignUp-MVC\public\index.php(33): Core\Router->dispatch('favicon.ico')
+#1 {main}
+Throw in 'C:\laragon\www\SignUp-MVC\Core\Router.php' on line 92
+[13-Mar-2023 07:00:23 UTC] Uncaught exception: 'Exception' with message: 'No route matched.'
+Stack trace: #0 C:\laragon\www\SignUp-MVC\public\index.php(33): Core\Router->dispatch('login/http;/loc...')
+#1 {main}
+Throw in 'C:\laragon\www\SignUp-MVC\Core\Router.php' on line 92
+[13-Mar-2023 14:19:18 UTC] Uncaught exception: 'Exception' with message: 'No route matched.'
+Stack trace: #0 C:\laragon\www\SignUp-MVC\public\index.php(33): Core\Router->dispatch('favicon.ico')
+#1 {main}
+Throw in 'C:\laragon\www\SignUp-MVC\Core\Router.php' on line 92
+[13-Mar-2023 14:23:27 UTC] Uncaught exception: 'ParseError' with message: 'syntax error, unexpected token ";", expecting "]"'
+Stack trace: #0 C:\laragon\www\SignUp-MVC\vendor\composer\ClassLoader.php(428): Composer\Autoload\includeFile('C:\\laragon\\www\\...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers...')
+#2 C:\laragon\www\SignUp-MVC\Core\Router.php(74): class_exists('App\\Controllers...')
+#3 C:\laragon\www\SignUp-MVC\public\index.php(33): Core\Router->dispatch('login/create')
+#4 {main}
+Throw in 'C:\laragon\www\SignUp-MVC\App\Controllers\Login.php' on line 25

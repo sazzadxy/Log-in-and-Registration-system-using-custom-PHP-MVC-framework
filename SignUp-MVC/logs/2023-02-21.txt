@@ -1,0 +1,50 @@
+[21-Feb-2023 07:32:28 UTC] Uncaught exception: 'Exception' with message: 'No route matched.'
+Stack trace: #0 C:\laragon\www\Custom-MVC\public\index.php(68): Core\Router->dispatch('poducts')
+#1 {main}
+Throw in 'C:\laragon\www\Custom-MVC\Core\Router.php' on line 129
+[21-Feb-2023 07:35:51 UTC] Uncaught exception: 'Exception' with message: 'No route matched.'
+Stack trace: #0 C:\laragon\www\Custom-MVC\public\index.php(68): Core\Router->dispatch('favicon.ico')
+#1 {main}
+Throw in 'C:\laragon\www\Custom-MVC\Core\Router.php' on line 129
+[21-Feb-2023 07:36:00 UTC] Uncaught exception: 'Exception' with message: 'No route matched.'
+Stack trace: #0 C:\laragon\www\Custom-MVC\public\index.php(68): Core\Router->dispatch('favicon.ico')
+#1 {main}
+Throw in 'C:\laragon\www\Custom-MVC\Core\Router.php' on line 129
+[21-Feb-2023 07:36:08 UTC] Uncaught exception: 'Exception' with message: 'No route matched.'
+Stack trace: #0 C:\laragon\www\Custom-MVC\public\index.php(68): Core\Router->dispatch('favicon.ico')
+#1 {main}
+Throw in 'C:\laragon\www\Custom-MVC\Core\Router.php' on line 129
+[21-Feb-2023 07:36:10 UTC] Uncaught exception: 'Exception' with message: 'No route matched.'
+Stack trace: #0 C:\laragon\www\Custom-MVC\public\index.php(68): Core\Router->dispatch('favicon.ico')
+#1 {main}
+Throw in 'C:\laragon\www\Custom-MVC\Core\Router.php' on line 129
+[21-Feb-2023 07:36:15 UTC] Uncaught exception: 'Exception' with message: 'No route matched.'
+Stack trace: #0 C:\laragon\www\Custom-MVC\public\index.php(68): Core\Router->dispatch('posts/')
+#1 {main}
+Throw in 'C:\laragon\www\Custom-MVC\Core\Router.php' on line 129
+[21-Feb-2023 14:15:31 UTC] Uncaught exception: 'Exception' with message: 'No route matched.'
+Stack trace: #0 C:\laragon\www\Custom-MVC\public\index.php(68): Core\Router->dispatch('products')
+#1 {main}
+Throw in 'C:\laragon\www\Custom-MVC\Core\Router.php' on line 129
+[21-Feb-2023 16:29:28 UTC] Uncaught exception: 'Exception' with message: 'No route matched.'
+Stack trace: #0 C:\laragon\www\Custom-MVC\public\index.php(68): Core\Router->dispatch('products')
+#1 {main}
+Throw in 'C:\laragon\www\Custom-MVC\Core\Router.php' on line 129
+[21-Feb-2023 16:29:52 UTC] Uncaught exception: 'Exception' with message: 'No route matched.'
+Stack trace: #0 C:\laragon\www\Custom-MVC\public\index.php(68): Core\Router->dispatch('posts/')
+#1 {main}
+Throw in 'C:\laragon\www\Custom-MVC\Core\Router.php' on line 129
+[21-Feb-2023 16:29:57 UTC] Uncaught exception: 'Exception' with message: 'Method nedAction not found in controllerApp\Controllers\Posts'
+Stack trace: #0 C:\laragon\www\Custom-MVC\Core\Router.php(116): Core\Controller->__call('ned', Array)
+#1 C:\laragon\www\Custom-MVC\public\index.php(68): Core\Router->dispatch('posts/ned')
+#2 {main}
+Throw in 'C:\laragon\www\Custom-MVC\Core\Controller.php' on line 32
+[21-Feb-2023 16:30:38 UTC] Uncaught exception: 'Exception' with message: 'Method nedAction not found in controllerApp\Controllers\Posts'
+Stack trace: #0 C:\laragon\www\Custom-MVC\Core\Router.php(116): Core\Controller->__call('ned', Array)
+#1 C:\laragon\www\Custom-MVC\public\index.php(68): Core\Router->dispatch('posts/ned')
+#2 {main}
+Throw in 'C:\laragon\www\Custom-MVC\Core\Controller.php' on line 32
+[21-Feb-2023 16:30:50 UTC] Uncaught exception: 'Exception' with message: 'No route matched.'
+Stack trace: #0 C:\laragon\www\Custom-MVC\public\index.php(68): Core\Router->dispatch('products')
+#1 {main}
+Throw in 'C:\laragon\www\Custom-MVC\Core\Router.php' on line 129

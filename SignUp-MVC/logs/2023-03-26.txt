@@ -1,0 +1,4 @@
+[26-Mar-2023 05:04:02 UTC] Uncaught exception: 'Exception' with message: 'No route matched.'
+Stack trace: #0 C:\laragon\www\SignUp-MVC\public\index.php(38): Core\Router->dispatch('favicon.ico')
+#1 {main}
+Throw in 'C:\laragon\www\SignUp-MVC\Core\Router.php' on line 92

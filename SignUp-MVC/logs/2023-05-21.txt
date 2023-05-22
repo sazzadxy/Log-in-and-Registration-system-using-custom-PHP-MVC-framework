@@ -1,0 +1,19 @@
+[21-May-2023 05:39:25 UTC] Uncaught exception: 'Exception' with message: 'Method deleteAction not found in controllerApp\Controllers\Login'
+Stack trace: #0 C:\laragon\www\SignUp-MVC\Core\Router.php(81): Core\Controller->__call('delete', Array)
+#1 C:\laragon\www\SignUp-MVC\public\index.php(40): Core\Router->dispatch('login/delete')
+#2 {main}
+Throw in 'C:\laragon\www\SignUp-MVC\Core\Controller.php' on line 34
+[21-May-2023 05:49:31 UTC] Uncaught exception: 'Error' with message: 'Call to undefined method App\Models\User::date()'
+Stack trace: #0 [internal function]: App\Controllers\Profile->showAction()
+#1 C:\laragon\www\SignUp-MVC\Core\Controller.php(30): call_user_func_array(Array, Array)
+#2 C:\laragon\www\SignUp-MVC\Core\Router.php(81): Core\Controller->__call('show', Array)
+#3 C:\laragon\www\SignUp-MVC\public\index.php(40): Core\Router->dispatch('profile/show')
+#4 {main}
+Throw in 'C:\laragon\www\SignUp-MVC\App\Controllers\Profile.php' on line 23
+[21-May-2023 05:49:45 UTC] Uncaught exception: 'Error' with message: 'Call to undefined method App\Models\User::date()'
+Stack trace: #0 [internal function]: App\Controllers\Profile->showAction()
+#1 C:\laragon\www\SignUp-MVC\Core\Controller.php(30): call_user_func_array(Array, Array)
+#2 C:\laragon\www\SignUp-MVC\Core\Router.php(81): Core\Controller->__call('show', Array)
+#3 C:\laragon\www\SignUp-MVC\public\index.php(40): Core\Router->dispatch('profile/show')
+#4 {main}
+Throw in 'C:\laragon\www\SignUp-MVC\App\Controllers\Profile.php' on line 23

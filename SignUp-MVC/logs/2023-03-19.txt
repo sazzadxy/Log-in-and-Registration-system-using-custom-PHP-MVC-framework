@@ -1,0 +1,12 @@
+[19-Mar-2023 04:46:45 UTC] Uncaught exception: 'Exception' with message: 'No route matched.'
+Stack trace: #0 C:\laragon\www\SignUp-MVC\public\index.php(38): Core\Router->dispatch('favicon.ico')
+#1 {main}
+Throw in 'C:\laragon\www\SignUp-MVC\Core\Router.php' on line 92
+[19-Mar-2023 04:47:27 UTC] Uncaught exception: 'Exception' with message: 'No route matched.'
+Stack trace: #0 C:\laragon\www\SignUp-MVC\public\index.php(38): Core\Router->dispatch('favicon.ico')
+#1 {main}
+Throw in 'C:\laragon\www\SignUp-MVC\Core\Router.php' on line 92
+[19-Mar-2023 06:11:45 UTC] Uncaught exception: 'Exception' with message: 'No route matched.'
+Stack trace: #0 C:\laragon\www\SignUp-MVC\public\index.php(38): Core\Router->dispatch('favicon.ico')
+#1 {main}
+Throw in 'C:\laragon\www\SignUp-MVC\Core\Router.php' on line 92

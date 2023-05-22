@@ -1,0 +1,14 @@
+[28-Mar-2023 05:22:08 UTC] Uncaught exception: 'Exception' with message: 'No route matched.'
+Stack trace: #0 C:\laragon\www\SignUp-MVC\public\index.php(38): Core\Router->dispatch('favicon.ico')
+#1 {main}
+Throw in 'C:\laragon\www\SignUp-MVC\Core\Router.php' on line 92
+[28-Mar-2023 06:02:10 UTC] Uncaught exception: 'ErrorException' with message: 'Only variables should be passed by reference'
+Stack trace: #0 C:\laragon\www\SignUp-MVC\App\Models\User.php(133): Core\Error::errorHandler(8, 'Only variables ...', 'C:\\laragon\\www\\...', 133)
+#1 C:\laragon\www\SignUp-MVC\App\Auth.php(18): App\Models\User->rememberLogin()
+#2 C:\laragon\www\SignUp-MVC\App\Controllers\Login.php(29): App\Auth::login(Object(App\Models\User), true)
+#3 [internal function]: App\Controllers\Login->createAction()
+#4 C:\laragon\www\SignUp-MVC\Core\Controller.php(30): call_user_func_array(Array, Array)
+#5 C:\laragon\www\SignUp-MVC\Core\Router.php(81): Core\Controller->__call('create', Array)
+#6 C:\laragon\www\SignUp-MVC\public\index.php(38): Core\Router->dispatch('login/create')
+#7 {main}
+Throw in 'C:\laragon\www\SignUp-MVC\App\Models\User.php' on line 133

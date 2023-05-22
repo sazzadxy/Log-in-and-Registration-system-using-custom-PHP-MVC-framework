@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block title %}Forgot password{% endblock %}
+
+{% block body %}
+
+    <h1 class="fw-bold text-center w-50">Request password reset</h1>
+
+    <form action="/password/request-reset" method="post">
+        <div class="mb-3 w-50">
+            <label for="inputEmail" class="form-label fw-bold">Email address</label>
+            <input type="email" class="form-control" name="email" id="emailid" placeholder="Email address" autofocus required>
+        </div>
+
+        <button type="submit" class="btn btn-dark">Send password reset</button>
+    </form>
+
+{% endblock %}

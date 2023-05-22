@@ -1,0 +1,102 @@
+[01-May-2023 16:07:57 UTC] Uncaught exception: 'Twig\Error\RuntimeError' with message: 'An exception has been thrown during the rendering of a template ("Array to string conversion").'
+Stack trace: #0 C:\laragon\www\SignUp-MVC\vendor\twig\twig\src\Template.php(367): Twig\Template->displayWithErrorHandling(Array, Array)
+#1 C:\laragon\www\SignUp-MVC\vendor\twig\twig\src\Environment.php(361) : eval()'d code(43): Twig\Template->display(Array, Array)
+#2 C:\laragon\www\SignUp-MVC\vendor\twig\twig\src\Template.php(394): __TwigTemplate_bbdb215b50fe722878c6f5cf215fdf96->doDisplay(Array, Array)
+#3 C:\laragon\www\SignUp-MVC\vendor\twig\twig\src\Template.php(367): Twig\Template->displayWithErrorHandling(Array, Array)
+#4 C:\laragon\www\SignUp-MVC\vendor\twig\twig\src\Template.php(379): Twig\Template->display(Array)
+#5 C:\laragon\www\SignUp-MVC\vendor\twig\twig\src\TemplateWrapper.php(40): Twig\Template->render(Array, Array)
+#6 C:\laragon\www\SignUp-MVC\vendor\twig\twig\src\Environment.php(280): Twig\TemplateWrapper->render(Array)
+#7 C:\laragon\www\SignUp-MVC\Core\View.php(50): Twig\Environment->render('Login/new.html', Array)
+#8 C:\laragon\www\SignUp-MVC\Core\View.php(24): Core\View::getTemplate('Login/new.html', Array)
+#9 C:\laragon\www\SignUp-MVC\App\Controllers\Login.php(18): Core\View::renderTemplate('Login/new.html')
+#10 [internal function]: App\Controllers\Login->newAction()
+#11 C:\laragon\www\SignUp-MVC\Core\Controller.php(30): call_user_func_array(Array, Array)
+#12 C:\laragon\www\SignUp-MVC\Core\Router.php(81): Core\Controller->__call('new', Array)
+#13 C:\laragon\www\SignUp-MVC\public\index.php(40): Core\Router->dispatch('login')
+#14 {main}
+Throw in 'C:\laragon\www\SignUp-MVC\App\Views\base.html' on line 35
+[01-May-2023 16:07:58 UTC] PHP Fatal error:  Uncaught ErrorException: Array to string conversion in C:\laragon\www\SignUp-MVC\vendor\twig\twig\src\Environment.php(361) : eval()'d code:91
+Stack trace:
+#0 C:\laragon\www\SignUp-MVC\vendor\twig\twig\src\Environment.php(361) : eval()'d code(91): Core\Error::errorHandler(2, 'Array to string...', 'C:\\laragon\\www\\...', 91)
+#1 C:\laragon\www\SignUp-MVC\vendor\twig\twig\src\Template.php(394): __TwigTemplate_33fb87bbfdfcbd4d33bf72e33fc78910->doDisplay(Array, Array)
+#2 C:\laragon\www\SignUp-MVC\vendor\twig\twig\src\Template.php(367): Twig\Template->displayWithErrorHandling(Array, Array)
+#3 C:\laragon\www\SignUp-MVC\vendor\twig\twig\src\Environment.php(361) : eval()'d code(43): Twig\Template->display(Array, Array)
+#4 C:\laragon\www\SignUp-MVC\vendor\twig\twig\src\Template.php(394): __TwigTemplate_02b3c0bec85bd772125cee27a577fcf3->doDisplay(Array, Array)
+#5 C:\laragon\www\SignUp-MVC\vendor\twig\twig\src\Template.php(367): Twig\Template->displayWithErrorHandling(Array, Array)
+#6 C:\laragon\www\SignUp-MVC\vendor\twig\twig\src\Template.php(379): Twig\Template->display(Array)
+#7 C:\laragon\www\SignUp-MVC\vendor\twig\twig\src\TemplateWrapper.php(40): Twig\Template->render(Array, Array)
+#8 C:\laragon\www\SignUp-MVC\vendor\twig\twig\src\Environment.php(280): Twig\TemplateWrapper->render(Array)
+#9 C:\laragon\www\SignUp-MVC\Core\View.php(50): Twig\Environment->render('500.html', Array)
+#10 C:\laragon\www\SignUp-MVC\Core\View.php(24): Core\View::getTemplate('500.html', Array)
+#11 C:\laragon\www\SignUp-MVC\Core\Error.php(43): Core\View::renderTemplate('500.html')
+#12 [internal function]: Core\Error::exceptionHandler(Object(Twig\Error\RuntimeError))
+#13 {main}
+
+Next Twig\Error\RuntimeError: An exception has been thrown during the rendering of a template ("Array to string conversion"). in C:\laragon\www\SignUp-MVC\App\Views\base.html:35
+Stack trace:
+#0 C:\laragon\www\SignUp-MVC\vendor\twig\twig\src\Template.php(367): Twig\Template->displayWithErrorHandling(Array, Array)
+#1 C:\laragon\www\SignUp-MVC\vendor\twig\twig\src\Environment.php(361) : eval()'d code(43): Twig\Template->display(Array, Array)
+#2 C:\laragon\www\SignUp-MVC\vendor\twig\twig\src\Template.php(394): __TwigTemplate_02b3c0bec85bd772125cee27a577fcf3->doDisplay(Array, Array)
+#3 C:\laragon\www\SignUp-MVC\vendor\twig\twig\src\Template.php(367): Twig\Template->displayWithErrorHandling(Array, Array)
+#4 C:\laragon\www\SignUp-MVC\vendor\twig\twig\src\Template.php(379): Twig\Template->display(Array)
+#5 C:\laragon\www\SignUp-MVC\vendor\twig\twig\src\TemplateWrapper.php(40): Twig\Template->render(Array, Array)
+#6 C:\laragon\www\SignUp-MVC\vendor\twig\twig\src\Environment.php(280): Twig\TemplateWrapper->render(Array)
+#7 C:\laragon\www\SignUp-MVC\Core\View.php(50): Twig\Environment->render('500.html', Array)
+#8 C:\laragon\www\SignUp-MVC\Core\View.php(24): Core\View::getTemplate('500.html', Array)
+#9 C:\laragon\www\SignUp-MVC\Core\Error.php(43): Core\View::renderTemplate('500.html')
+#10 [internal function]: Core\Error::exceptionHandler(Object(Twig\Error\RuntimeError))
+#11 {main}
+  thrown in C:\laragon\www\SignUp-MVC\App\Views\base.html on line 35
+[01-May-2023 16:07:58 UTC] Uncaught exception: 'Exception' with message: 'No route matched.'
+Stack trace: #0 C:\laragon\www\SignUp-MVC\public\index.php(40): Core\Router->dispatch('favicon.ico')
+#1 {main}
+Throw in 'C:\laragon\www\SignUp-MVC\Core\Router.php' on line 92
+[01-May-2023 16:09:36 UTC] Uncaught exception: 'Twig\Error\RuntimeError' with message: 'An exception has been thrown during the rendering of a template ("Array to string conversion").'
+Stack trace: #0 C:\laragon\www\SignUp-MVC\vendor\twig\twig\src\Template.php(367): Twig\Template->displayWithErrorHandling(Array, Array)
+#1 C:\laragon\www\SignUp-MVC\vendor\twig\twig\src\Environment.php(361) : eval()'d code(43): Twig\Template->display(Array, Array)
+#2 C:\laragon\www\SignUp-MVC\vendor\twig\twig\src\Template.php(394): __TwigTemplate_bbdb215b50fe722878c6f5cf215fdf96->doDisplay(Array, Array)
+#3 C:\laragon\www\SignUp-MVC\vendor\twig\twig\src\Template.php(367): Twig\Template->displayWithErrorHandling(Array, Array)
+#4 C:\laragon\www\SignUp-MVC\vendor\twig\twig\src\Template.php(379): Twig\Template->display(Array)
+#5 C:\laragon\www\SignUp-MVC\vendor\twig\twig\src\TemplateWrapper.php(40): Twig\Template->render(Array, Array)
+#6 C:\laragon\www\SignUp-MVC\vendor\twig\twig\src\Environment.php(280): Twig\TemplateWrapper->render(Array)
+#7 C:\laragon\www\SignUp-MVC\Core\View.php(50): Twig\Environment->render('Login/new.html', Array)
+#8 C:\laragon\www\SignUp-MVC\Core\View.php(24): Core\View::getTemplate('Login/new.html', Array)
+#9 C:\laragon\www\SignUp-MVC\App\Controllers\Login.php(18): Core\View::renderTemplate('Login/new.html')
+#10 [internal function]: App\Controllers\Login->newAction()
+#11 C:\laragon\www\SignUp-MVC\Core\Controller.php(30): call_user_func_array(Array, Array)
+#12 C:\laragon\www\SignUp-MVC\Core\Router.php(81): Core\Controller->__call('new', Array)
+#13 C:\laragon\www\SignUp-MVC\public\index.php(40): Core\Router->dispatch('login')
+#14 {main}
+Throw in 'C:\laragon\www\SignUp-MVC\App\Views\base.html' on line 35
+[01-May-2023 16:09:36 UTC] PHP Fatal error:  Uncaught ErrorException: Array to string conversion in C:\laragon\www\SignUp-MVC\vendor\twig\twig\src\Environment.php(361) : eval()'d code:91
+Stack trace:
+#0 C:\laragon\www\SignUp-MVC\vendor\twig\twig\src\Environment.php(361) : eval()'d code(91): Core\Error::errorHandler(2, 'Array to string...', 'C:\\laragon\\www\\...', 91)
+#1 C:\laragon\www\SignUp-MVC\vendor\twig\twig\src\Template.php(394): __TwigTemplate_33fb87bbfdfcbd4d33bf72e33fc78910->doDisplay(Array, Array)
+#2 C:\laragon\www\SignUp-MVC\vendor\twig\twig\src\Template.php(367): Twig\Template->displayWithErrorHandling(Array, Array)
+#3 C:\laragon\www\SignUp-MVC\vendor\twig\twig\src\Environment.php(361) : eval()'d code(43): Twig\Template->display(Array, Array)
+#4 C:\laragon\www\SignUp-MVC\vendor\twig\twig\src\Template.php(394): __TwigTemplate_02b3c0bec85bd772125cee27a577fcf3->doDisplay(Array, Array)
+#5 C:\laragon\www\SignUp-MVC\vendor\twig\twig\src\Template.php(367): Twig\Template->displayWithErrorHandling(Array, Array)
+#6 C:\laragon\www\SignUp-MVC\vendor\twig\twig\src\Template.php(379): Twig\Template->display(Array)
+#7 C:\laragon\www\SignUp-MVC\vendor\twig\twig\src\TemplateWrapper.php(40): Twig\Template->render(Array, Array)
+#8 C:\laragon\www\SignUp-MVC\vendor\twig\twig\src\Environment.php(280): Twig\TemplateWrapper->render(Array)
+#9 C:\laragon\www\SignUp-MVC\Core\View.php(50): Twig\Environment->render('500.html', Array)
+#10 C:\laragon\www\SignUp-MVC\Core\View.php(24): Core\View::getTemplate('500.html', Array)
+#11 C:\laragon\www\SignUp-MVC\Core\Error.php(43): Core\View::renderTemplate('500.html')
+#12 [internal function]: Core\Error::exceptionHandler(Object(Twig\Error\RuntimeError))
+#13 {main}
+
+Next Twig\Error\RuntimeError: An exception has been thrown during the rendering of a template ("Array to string conversion"). in C:\laragon\www\SignUp-MVC\App\Views\base.html:35
+Stack trace:
+#0 C:\laragon\www\SignUp-MVC\vendor\twig\twig\src\Template.php(367): Twig\Template->displayWithErrorHandling(Array, Array)
+#1 C:\laragon\www\SignUp-MVC\vendor\twig\twig\src\Environment.php(361) : eval()'d code(43): Twig\Template->display(Array, Array)
+#2 C:\laragon\www\SignUp-MVC\vendor\twig\twig\src\Template.php(394): __TwigTemplate_02b3c0bec85bd772125cee27a577fcf3->doDisplay(Array, Array)
+#3 C:\laragon\www\SignUp-MVC\vendor\twig\twig\src\Template.php(367): Twig\Template->displayWithErrorHandling(Array, Array)
+#4 C:\laragon\www\SignUp-MVC\vendor\twig\twig\src\Template.php(379): Twig\Template->display(Array)
+#5 C:\laragon\www\SignUp-MVC\vendor\twig\twig\src\TemplateWrapper.php(40): Twig\Template->render(Array, Array)
+#6 C:\laragon\www\SignUp-MVC\vendor\twig\twig\src\Environment.php(280): Twig\TemplateWrapper->render(Array)
+#7 C:\laragon\www\SignUp-MVC\Core\View.php(50): Twig\Environment->render('500.html', Array)
+#8 C:\laragon\www\SignUp-MVC\Core\View.php(24): Core\View::getTemplate('500.html', Array)
+#9 C:\laragon\www\SignUp-MVC\Core\Error.php(43): Core\View::renderTemplate('500.html')
+#10 [internal function]: Core\Error::exceptionHandler(Object(Twig\Error\RuntimeError))
+#11 {main}
+  thrown in C:\laragon\www\SignUp-MVC\App\Views\base.html on line 35

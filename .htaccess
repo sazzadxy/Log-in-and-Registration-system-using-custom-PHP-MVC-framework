@@ -1,0 +1,13 @@
+# DirectoryIndex SignUp-MVC/public/index.php
+
+<IfModule mod_rewrite.c>
+  RewriteEngine on
+  RewriteRule ^$ SignUp-MVC/public/ [L]
+  RewriteRule (.*) SignUp-MVC/public/$1 [L]
+</IfModule>
+
+
+
+
+
+

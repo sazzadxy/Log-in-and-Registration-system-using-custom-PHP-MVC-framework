@@ -1,0 +1,79 @@
+[23-Mar-2023 04:44:01 UTC] Uncaught exception: 'Exception' with message: 'No route matched.'
+Stack trace: #0 C:\laragon\www\SignUp-MVC\public\index.php(38): Core\Router->dispatch('favicon.ico')
+#1 {main}
+Throw in 'C:\laragon\www\SignUp-MVC\Core\Router.php' on line 92
+[23-Mar-2023 04:44:09 UTC] Uncaught exception: 'Exception' with message: 'No route matched.'
+Stack trace: #0 C:\laragon\www\SignUp-MVC\public\index.php(38): Core\Router->dispatch('favicon.ico')
+#1 {main}
+Throw in 'C:\laragon\www\SignUp-MVC\Core\Router.php' on line 92
+[23-Mar-2023 04:58:49 UTC] Uncaught exception: 'Exception' with message: 'No route matched.'
+Stack trace: #0 C:\laragon\www\SignUp-MVC\public\index.php(38): Core\Router->dispatch('items/index.htm...')
+#1 {main}
+Throw in 'C:\laragon\www\SignUp-MVC\Core\Router.php' on line 92
+[23-Mar-2023 04:58:56 UTC] Uncaught exception: 'Exception' with message: 'No route matched.'
+Stack trace: #0 C:\laragon\www\SignUp-MVC\public\index.php(38): Core\Router->dispatch('items/index.htm...')
+#1 {main}
+Throw in 'C:\laragon\www\SignUp-MVC\Core\Router.php' on line 92
+[23-Mar-2023 04:59:10 UTC] Uncaught exception: 'Exception' with message: 'No route matched.'
+Stack trace: #0 C:\laragon\www\SignUp-MVC\public\index.php(38): Core\Router->dispatch('items/index.htm...')
+#1 {main}
+Throw in 'C:\laragon\www\SignUp-MVC\Core\Router.php' on line 92
+[23-Mar-2023 04:59:29 UTC] Uncaught exception: 'Exception' with message: 'No route matched.'
+Stack trace: #0 C:\laragon\www\SignUp-MVC\public\index.php(38): Core\Router->dispatch('items/index.htm...')
+#1 {main}
+Throw in 'C:\laragon\www\SignUp-MVC\Core\Router.php' on line 92
+[23-Mar-2023 05:41:51 UTC] Uncaught exception: 'Exception' with message: 'No route matched.'
+Stack trace: #0 C:\laragon\www\SignUp-MVC\public\index.php(38): Core\Router->dispatch('favicon.ico')
+#1 {main}
+Throw in 'C:\laragon\www\SignUp-MVC\Core\Router.php' on line 92
+[23-Mar-2023 05:41:56 UTC] Uncaught exception: 'ParseError' with message: 'syntax error, unexpected token "}"'
+Stack trace: #0 C:\laragon\www\SignUp-MVC\vendor\composer\ClassLoader.php(428): Composer\Autoload\includeFile('C:\\laragon\\www\\...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers...')
+#2 C:\laragon\www\SignUp-MVC\Core\Router.php(74): class_exists('App\\Controllers...')
+#3 C:\laragon\www\SignUp-MVC\public\index.php(38): Core\Router->dispatch('items/index')
+#4 {main}
+Throw in 'C:\laragon\www\SignUp-MVC\App\Controllers\Items.php' on line 14
+[23-Mar-2023 06:06:39 UTC] Uncaught exception: 'Exception' with message: 'No route matched.'
+Stack trace: #0 C:\laragon\www\SignUp-MVC\public\index.php(38): Core\Router->dispatch('login/css/style...')
+#1 {main}
+Throw in 'C:\laragon\www\SignUp-MVC\Core\Router.php' on line 92
+[23-Mar-2023 06:06:54 UTC] Uncaught exception: 'ErrorException' with message: 'Undefined array key "email"'
+Stack trace: #0 C:\laragon\www\SignUp-MVC\App\Controllers\Login.php(21): Core\Error::errorHandler(2, 'Undefined array...', 'C:\\laragon\\www\\...', 21)
+#1 [internal function]: App\Controllers\Login->createAction()
+#2 C:\laragon\www\SignUp-MVC\Core\Controller.php(30): call_user_func_array(Array, Array)
+#3 C:\laragon\www\SignUp-MVC\Core\Router.php(81): Core\Controller->__call('create', Array)
+#4 C:\laragon\www\SignUp-MVC\public\index.php(38): Core\Router->dispatch('login/create')
+#5 {main}
+Throw in 'C:\laragon\www\SignUp-MVC\App\Controllers\Login.php' on line 21
+[23-Mar-2023 06:06:57 UTC] Uncaught exception: 'ErrorException' with message: 'Undefined array key "email"'
+Stack trace: #0 C:\laragon\www\SignUp-MVC\App\Controllers\Login.php(21): Core\Error::errorHandler(2, 'Undefined array...', 'C:\\laragon\\www\\...', 21)
+#1 [internal function]: App\Controllers\Login->createAction()
+#2 C:\laragon\www\SignUp-MVC\Core\Controller.php(30): call_user_func_array(Array, Array)
+#3 C:\laragon\www\SignUp-MVC\Core\Router.php(81): Core\Controller->__call('create', Array)
+#4 C:\laragon\www\SignUp-MVC\public\index.php(38): Core\Router->dispatch('login/create')
+#5 {main}
+Throw in 'C:\laragon\www\SignUp-MVC\App\Controllers\Login.php' on line 21
+[23-Mar-2023 06:08:33 UTC] Uncaught exception: 'ErrorException' with message: 'Undefined array key "email"'
+Stack trace: #0 C:\laragon\www\SignUp-MVC\App\Controllers\Login.php(21): Core\Error::errorHandler(2, 'Undefined array...', 'C:\\laragon\\www\\...', 21)
+#1 [internal function]: App\Controllers\Login->createAction()
+#2 C:\laragon\www\SignUp-MVC\Core\Controller.php(30): call_user_func_array(Array, Array)
+#3 C:\laragon\www\SignUp-MVC\Core\Router.php(81): Core\Controller->__call('create', Array)
+#4 C:\laragon\www\SignUp-MVC\public\index.php(38): Core\Router->dispatch('login/create')
+#5 {main}
+Throw in 'C:\laragon\www\SignUp-MVC\App\Controllers\Login.php' on line 21
+[23-Mar-2023 06:08:53 UTC] Uncaught exception: 'ErrorException' with message: 'Undefined array key "email"'
+Stack trace: #0 C:\laragon\www\SignUp-MVC\App\Controllers\Login.php(21): Core\Error::errorHandler(2, 'Undefined array...', 'C:\\laragon\\www\\...', 21)
+#1 [internal function]: App\Controllers\Login->createAction()
+#2 C:\laragon\www\SignUp-MVC\Core\Controller.php(30): call_user_func_array(Array, Array)
+#3 C:\laragon\www\SignUp-MVC\Core\Router.php(81): Core\Controller->__call('create', Array)
+#4 C:\laragon\www\SignUp-MVC\public\index.php(38): Core\Router->dispatch('login/create')
+#5 {main}
+Throw in 'C:\laragon\www\SignUp-MVC\App\Controllers\Login.php' on line 21
+[23-Mar-2023 06:08:56 UTC] Uncaught exception: 'ErrorException' with message: 'Undefined array key "email"'
+Stack trace: #0 C:\laragon\www\SignUp-MVC\App\Controllers\Login.php(21): Core\Error::errorHandler(2, 'Undefined array...', 'C:\\laragon\\www\\...', 21)
+#1 [internal function]: App\Controllers\Login->createAction()
+#2 C:\laragon\www\SignUp-MVC\Core\Controller.php(30): call_user_func_array(Array, Array)
+#3 C:\laragon\www\SignUp-MVC\Core\Router.php(81): Core\Controller->__call('create', Array)
+#4 C:\laragon\www\SignUp-MVC\public\index.php(38): Core\Router->dispatch('login/create')
+#5 {main}
+Throw in 'C:\laragon\www\SignUp-MVC\App\Controllers\Login.php' on line 21

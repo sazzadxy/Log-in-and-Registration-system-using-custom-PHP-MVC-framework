@@ -1,0 +1,66 @@
+{% extends 'base.html' %}
+
+{% block title %}Profile: {{ user.name }}{% endblock %}
+
+{% block footer %}
+
+    <script src="/js/hideShowPassword.min.js"></script>
+    <script src="/js/app.js"></script>
+    
+    <script>
+        $(document).ready(function () {
+            
+            var userId = '{{ user.id }}';
+
+            // Validate the form
+            $('#formProfile').validate({
+                rules:{
+                    password: {
+                        minlength: 6,
+                        validPassword: true
+                    },
+                    // password_confirmation: {
+                    //     equalTo: '#inputPassword'
+                    // }
+                },
+            });
+
+            // Show password toggle button
+            $('#inputPassword').hideShowPassword({
+                show: false,
+                innerToggle: 'focus'
+            });
+        });
+    </script>
+    
+{% endblock %}
+
+{% block body %}
+
+    <h1 class="fw-bold text-center w-50">Profile</h1>
+
+    {% if user.errors is not empty %}
+        <p>Errors:</p>
+        <ul>
+            {% for error in user.errors %}
+                <li>{{ error }}</li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+
+    <form method="post" action="/profile/execute" id="formProfile">
+        <div class="mb3 w-50">
+            <label for="inputPassword" class="form-label fw-bold">Enter your password to delete your account</label>
+            <input type="password" class="form-control" name="password" id="inputPassword" placeholder="Password" aria-describedby="helpBlock">
+            <span class="help-block" id="helpBlock">Enter your current password</span>
+        </div>
+        <!-- <div>
+            <label for="inputPasswordConfirmation">Repeat password</label>
+            <input type="password" name="password_confirmation" id="inputPasswordConfirmation" placeholder="Repeat password" required>
+        </div> -->
+
+        <button type="submit" class="btn btn-dark">Delete</button>
+        <a href="/profile/show">Cancel</a>
+    </form>
+
+{% endblock %}

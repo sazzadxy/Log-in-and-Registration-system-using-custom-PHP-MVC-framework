@@ -1,0 +1,15 @@
+[20-Mar-2023 15:35:08 UTC] Uncaught exception: 'Exception' with message: 'No route matched.'
+Stack trace: #0 C:\laragon\www\SignUp-MVC\public\index.php(38): Core\Router->dispatch('favicon.ico')
+#1 {main}
+Throw in 'C:\laragon\www\SignUp-MVC\Core\Router.php' on line 92
+[20-Mar-2023 15:36:40 UTC] Uncaught exception: 'ErrorException' with message: 'Object of class PDO could not be converted to int'
+Stack trace: #0 [internal function]: Core\Error::errorHandler(2, 'Object of class...', 'C:\\laragon\\www\\...', 77)
+#1 C:\laragon\www\SignUp-MVC\App\Models\User.php(77): PDOStatement->execute()
+#2 C:\laragon\www\SignUp-MVC\App\Auth.php(64): App\Models\User::findByID(19)
+#3 C:\laragon\www\SignUp-MVC\App\Controllers\Home.php(14): App\Auth::getUser()
+#4 [internal function]: App\Controllers\Home->indexAction()
+#5 C:\laragon\www\SignUp-MVC\Core\Controller.php(29): call_user_func_array(Array, Array)
+#6 C:\laragon\www\SignUp-MVC\Core\Router.php(81): Core\Controller->__call('index', Array)
+#7 C:\laragon\www\SignUp-MVC\public\index.php(38): Core\Router->dispatch('')
+#8 {main}
+Throw in 'C:\laragon\www\SignUp-MVC\App\Models\User.php' on line 77

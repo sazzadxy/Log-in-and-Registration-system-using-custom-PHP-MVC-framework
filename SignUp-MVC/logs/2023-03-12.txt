@@ -1,0 +1,24 @@
+[12-Mar-2023 06:15:27 UTC] Uncaught exception: 'Exception' with message: 'No route matched.'
+Stack trace: #0 C:\laragon\www\SignUp-MVC\public\index.php(33): Core\Router->dispatch('favicon.ico')
+#1 {main}
+Throw in 'C:\laragon\www\SignUp-MVC\Core\Router.php' on line 92
+[12-Mar-2023 06:57:31 UTC] Uncaught exception: 'ArgumentCountError' with message: 'Too few arguments to function App\Models\User::__construct(), 0 passed and exactly 1 expected'
+Stack trace: #0 [internal function]: App\Models\User->__construct()
+#1 C:\laragon\www\SignUp-MVC\App\Models\User.php(65): PDOStatement->fetch()
+#2 C:\laragon\www\SignUp-MVC\App\Controllers\Login.php(18): App\Models\User::findByEmail('s@gmail.com')
+#3 [internal function]: App\Controllers\Login->createAction()
+#4 C:\laragon\www\SignUp-MVC\Core\Controller.php(27): call_user_func_array(Array, Array)
+#5 C:\laragon\www\SignUp-MVC\Core\Router.php(81): Core\Controller->__call('create', Array)
+#6 C:\laragon\www\SignUp-MVC\public\index.php(33): Core\Router->dispatch('login/create')
+#7 {main}
+Throw in 'C:\laragon\www\SignUp-MVC\App\Models\User.php' on line 10
+[12-Mar-2023 06:57:52 UTC] Uncaught exception: 'ArgumentCountError' with message: 'Too few arguments to function App\Models\User::__construct(), 0 passed and exactly 1 expected'
+Stack trace: #0 [internal function]: App\Models\User->__construct()
+#1 C:\laragon\www\SignUp-MVC\App\Models\User.php(65): PDOStatement->fetch()
+#2 C:\laragon\www\SignUp-MVC\App\Controllers\Login.php(18): App\Models\User::findByEmail('s@gmail.com')
+#3 [internal function]: App\Controllers\Login->createAction()
+#4 C:\laragon\www\SignUp-MVC\Core\Controller.php(27): call_user_func_array(Array, Array)
+#5 C:\laragon\www\SignUp-MVC\Core\Router.php(81): Core\Controller->__call('create', Array)
+#6 C:\laragon\www\SignUp-MVC\public\index.php(33): Core\Router->dispatch('login/create')
+#7 {main}
+Throw in 'C:\laragon\www\SignUp-MVC\App\Models\User.php' on line 10

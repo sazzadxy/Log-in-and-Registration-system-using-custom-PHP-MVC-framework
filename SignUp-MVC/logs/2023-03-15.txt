@@ -1,0 +1,42 @@
+[15-Mar-2023 15:01:49 UTC] Uncaught exception: 'Exception' with message: 'No route matched.'
+Stack trace: #0 C:\laragon\www\SignUp-MVC\public\index.php(37): Core\Router->dispatch('favicon.ico')
+#1 {main}
+Throw in 'C:\laragon\www\SignUp-MVC\Core\Router.php' on line 92
+[15-Mar-2023 16:40:08 UTC] Uncaught exception: 'Twig\Error\SyntaxError' with message: 'Unexpected "is_Logged_In" tag (expecting closing tag for the "if" tag defined near line 8).'
+Stack trace: #0 C:\laragon\www\SignUp-MVC\vendor\twig\twig\src\TokenParser\IfTokenParser.php(41): Twig\Parser->subparse(Array)
+#1 C:\laragon\www\SignUp-MVC\vendor\twig\twig\src\Parser.php(170): Twig\TokenParser\IfTokenParser->parse(Object(Twig\Token))
+#2 C:\laragon\www\SignUp-MVC\vendor\twig\twig\src\TokenParser\BlockTokenParser.php(47): Twig\Parser->subparse(Array, true)
+#3 C:\laragon\www\SignUp-MVC\vendor\twig\twig\src\Parser.php(170): Twig\TokenParser\BlockTokenParser->parse(Object(Twig\Token))
+#4 C:\laragon\www\SignUp-MVC\vendor\twig\twig\src\Parser.php(83): Twig\Parser->subparse(NULL, false)
+#5 C:\laragon\www\SignUp-MVC\vendor\twig\twig\src\Environment.php(491): Twig\Parser->parse(Object(Twig\TokenStream))
+#6 C:\laragon\www\SignUp-MVC\vendor\twig\twig\src\Environment.php(519): Twig\Environment->parse(Object(Twig\TokenStream))
+#7 C:\laragon\www\SignUp-MVC\vendor\twig\twig\src\Environment.php(351): Twig\Environment->compileSource(Object(Twig\Source))
+#8 C:\laragon\www\SignUp-MVC\vendor\twig\twig\src\Environment.php(312): Twig\Environment->loadTemplate('__TwigTemplate_...', 'Home/index.html')
+#9 C:\laragon\www\SignUp-MVC\vendor\twig\twig\src\Environment.php(280): Twig\Environment->load('Home/index.html')
+#10 C:\laragon\www\SignUp-MVC\Core\View.php(39): Twig\Environment->render('Home/index.html', Array)
+#11 C:\laragon\www\SignUp-MVC\App\Controllers\Home.php(11): Core\View::renderTemplate('Home/index.html')
+#12 [internal function]: App\Controllers\Home->indexAction()
+#13 C:\laragon\www\SignUp-MVC\Core\Controller.php(27): call_user_func_array(Array, Array)
+#14 C:\laragon\www\SignUp-MVC\Core\Router.php(81): Core\Controller->__call('index', Array)
+#15 C:\laragon\www\SignUp-MVC\public\index.php(38): Core\Router->dispatch('')
+#16 {main}
+Throw in 'C:\laragon\www\SignUp-MVC\App\Views\Home\index.html' on line 9
+[15-Mar-2023 16:43:06 UTC] Uncaught exception: 'Twig\Error\SyntaxError' with message: 'Unexpected "endblock" tag (expecting closing tag for the "if" tag defined near line 8).'
+Stack trace: #0 C:\laragon\www\SignUp-MVC\vendor\twig\twig\src\TokenParser\IfTokenParser.php(41): Twig\Parser->subparse(Array)
+#1 C:\laragon\www\SignUp-MVC\vendor\twig\twig\src\Parser.php(170): Twig\TokenParser\IfTokenParser->parse(Object(Twig\Token))
+#2 C:\laragon\www\SignUp-MVC\vendor\twig\twig\src\TokenParser\BlockTokenParser.php(47): Twig\Parser->subparse(Array, true)
+#3 C:\laragon\www\SignUp-MVC\vendor\twig\twig\src\Parser.php(170): Twig\TokenParser\BlockTokenParser->parse(Object(Twig\Token))
+#4 C:\laragon\www\SignUp-MVC\vendor\twig\twig\src\Parser.php(83): Twig\Parser->subparse(NULL, false)
+#5 C:\laragon\www\SignUp-MVC\vendor\twig\twig\src\Environment.php(491): Twig\Parser->parse(Object(Twig\TokenStream))
+#6 C:\laragon\www\SignUp-MVC\vendor\twig\twig\src\Environment.php(519): Twig\Environment->parse(Object(Twig\TokenStream))
+#7 C:\laragon\www\SignUp-MVC\vendor\twig\twig\src\Environment.php(351): Twig\Environment->compileSource(Object(Twig\Source))
+#8 C:\laragon\www\SignUp-MVC\vendor\twig\twig\src\Environment.php(312): Twig\Environment->loadTemplate('__TwigTemplate_...', 'Home/index.html')
+#9 C:\laragon\www\SignUp-MVC\vendor\twig\twig\src\Environment.php(280): Twig\Environment->load('Home/index.html')
+#10 C:\laragon\www\SignUp-MVC\Core\View.php(39): Twig\Environment->render('Home/index.html', Array)
+#11 C:\laragon\www\SignUp-MVC\App\Controllers\Home.php(11): Core\View::renderTemplate('Home/index.html')
+#12 [internal function]: App\Controllers\Home->indexAction()
+#13 C:\laragon\www\SignUp-MVC\Core\Controller.php(27): call_user_func_array(Array, Array)
+#14 C:\laragon\www\SignUp-MVC\Core\Router.php(81): Core\Controller->__call('index', Array)
+#15 C:\laragon\www\SignUp-MVC\public\index.php(38): Core\Router->dispatch('')
+#16 {main}
+Throw in 'C:\laragon\www\SignUp-MVC\App\Views\Home\index.html' on line 15

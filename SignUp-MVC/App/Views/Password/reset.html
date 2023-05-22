@@ -1,0 +1,63 @@
+{% extends 'base.html' %}
+
+{% block title %}Reset password{% endblock %}
+
+{% block footer %}
+
+    <script src="/js/hideShowPassword.min.js"></script>
+    <script src="/js/app.js"></script>
+    
+    <script>
+
+        $(document).ready(function () {
+            $('#formPassword').validate({
+                rules:{
+                    password: {
+                        required: true,
+                        minlength: 6,
+                        validPassword: true
+                    },
+                },
+                messages:{
+                    email:{
+                        remote: 'email already taken'
+                    }
+                }
+            });
+
+            // Show password toggle button
+            $('#inputPassword').hideShowPassword({
+                show: false,
+                innerToggle: 'focus'
+            });
+        });
+    </script>
+    
+{% endblock %}
+
+{% block body %}
+
+    <h1 class="fw-bold text-center w-50">Reset password</h1>
+
+    {% if user.errors is not empty %}
+        <p>Errors:</p>
+        <ul>
+            {% for error in user.errors %}
+                <li>{{ error }}</li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+
+    <form action="/password/reset-password" method="post" id="formPassword">
+
+        <input type="hidden" name="token" value="{{ token }}">
+      
+        <div class="mb-3 w-50">
+            <label for="inputPassword" class="form-label fw-bold">Password</label>
+            <input type="password" class="form-control" name="password" id="inputPassword" placeholder="Password" required>
+        </div>
+
+        <button type="submit" class="btn btn-dark">Reset password</button>
+    </form>
+
+{% endblock %}

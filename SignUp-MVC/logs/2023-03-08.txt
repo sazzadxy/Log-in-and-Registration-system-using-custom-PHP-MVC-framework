@@ -1,0 +1,51 @@
+[08-Mar-2023 05:20:40 UTC] Uncaught exception: 'Exception' with message: 'No route matched.'
+Stack trace: #0 C:\laragon\www\SignUp-MVC\public\index.php(32): Core\Router->dispatch('favicon.ico')
+#1 {main}
+Throw in 'C:\laragon\www\SignUp-MVC\Core\Router.php' on line 92
+[08-Mar-2023 14:00:52 UTC] Uncaught exception: 'ErrorException' with message: 'Undefined property: App\Models\User::$name'
+Stack trace: #0 C:\laragon\www\SignUp-MVC\App\Models\User.php(19): Core\Error::errorHandler(2, 'Undefined prope...', 'C:\\laragon\\www\\...', 19)
+#1 C:\laragon\www\SignUp-MVC\App\Models\User.php(63): App\Models\User->validate()
+#2 C:\laragon\www\SignUp-MVC\App\Controllers\Signup.php(20): App\Models\User->save()
+#3 [internal function]: App\Controllers\Signup->createAction()
+#4 C:\laragon\www\SignUp-MVC\Core\Controller.php(27): call_user_func_array(Array, Array)
+#5 C:\laragon\www\SignUp-MVC\Core\Router.php(81): Core\Controller->__call('create', Array)
+#6 C:\laragon\www\SignUp-MVC\public\index.php(32): Core\Router->dispatch('signup/create')
+#7 {main}
+Throw in 'C:\laragon\www\SignUp-MVC\App\Models\User.php' on line 19
+[08-Mar-2023 14:01:13 UTC] Uncaught exception: 'ErrorException' with message: 'Undefined property: App\Models\User::$name'
+Stack trace: #0 C:\laragon\www\SignUp-MVC\App\Models\User.php(19): Core\Error::errorHandler(2, 'Undefined prope...', 'C:\\laragon\\www\\...', 19)
+#1 C:\laragon\www\SignUp-MVC\App\Models\User.php(63): App\Models\User->validate()
+#2 C:\laragon\www\SignUp-MVC\App\Controllers\Signup.php(20): App\Models\User->save()
+#3 [internal function]: App\Controllers\Signup->createAction()
+#4 C:\laragon\www\SignUp-MVC\Core\Controller.php(27): call_user_func_array(Array, Array)
+#5 C:\laragon\www\SignUp-MVC\Core\Router.php(81): Core\Controller->__call('create', Array)
+#6 C:\laragon\www\SignUp-MVC\public\index.php(32): Core\Router->dispatch('signup/create')
+#7 {main}
+Throw in 'C:\laragon\www\SignUp-MVC\App\Models\User.php' on line 19
+[08-Mar-2023 14:02:21 UTC] Uncaught exception: 'ErrorException' with message: 'Undefined property: App\Models\User::$name'
+Stack trace: #0 C:\laragon\www\SignUp-MVC\App\Models\User.php(19): Core\Error::errorHandler(2, 'Undefined prope...', 'C:\\laragon\\www\\...', 19)
+#1 C:\laragon\www\SignUp-MVC\App\Models\User.php(63): App\Models\User->validate()
+#2 C:\laragon\www\SignUp-MVC\App\Controllers\Signup.php(20): App\Models\User->save()
+#3 [internal function]: App\Controllers\Signup->createAction()
+#4 C:\laragon\www\SignUp-MVC\Core\Controller.php(27): call_user_func_array(Array, Array)
+#5 C:\laragon\www\SignUp-MVC\Core\Router.php(81): Core\Controller->__call('create', Array)
+#6 C:\laragon\www\SignUp-MVC\public\index.php(32): Core\Router->dispatch('signup/create')
+#7 {main}
+Throw in 'C:\laragon\www\SignUp-MVC\App\Models\User.php' on line 19
+[08-Mar-2023 15:42:14 UTC] Uncaught exception: 'ParseError' with message: 'syntax error, unexpected variable "$is_valid", expecting "function" or "const"'
+Stack trace: #0 C:\laragon\www\SignUp-MVC\vendor\composer\ClassLoader.php(428): Composer\Autoload\includeFile('C:\\laragon\\www\\...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers...')
+#2 C:\laragon\www\SignUp-MVC\Core\Router.php(74): class_exists('App\\Controllers...')
+#3 C:\laragon\www\SignUp-MVC\public\index.php(32): Core\Router->dispatch('account/validat...')
+#4 {main}
+Throw in 'C:\laragon\www\SignUp-MVC\App\Controllers\Account.php' on line 10
+[08-Mar-2023 16:12:17 UTC] Uncaught exception: 'ErrorException' with message: 'Undefined property: App\Models\User::$name'
+Stack trace: #0 C:\laragon\www\SignUp-MVC\App\Models\User.php(19): Core\Error::errorHandler(2, 'Undefined prope...', 'C:\\laragon\\www\\...', 19)
+#1 C:\laragon\www\SignUp-MVC\App\Models\User.php(63): App\Models\User->validate()
+#2 C:\laragon\www\SignUp-MVC\App\Controllers\Signup.php(20): App\Models\User->save()
+#3 [internal function]: App\Controllers\Signup->createAction()
+#4 C:\laragon\www\SignUp-MVC\Core\Controller.php(27): call_user_func_array(Array, Array)
+#5 C:\laragon\www\SignUp-MVC\Core\Router.php(81): Core\Controller->__call('create', Array)
+#6 C:\laragon\www\SignUp-MVC\public\index.php(32): Core\Router->dispatch('signup/create')
+#7 {main}
+Throw in 'C:\laragon\www\SignUp-MVC\App\Models\User.php' on line 19
